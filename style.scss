@@ -1,0 +1,107 @@
+---
+---
+
+@import "variables";
+@import "reset";
+
+body {
+  background-color: #FFF;
+  font-size: 110%;
+}
+
+h1, h2, h3 {
+  font-family: Helvetica, Verdana, sans-serif;
+  margin: 1em 0;
+}
+
+h1 {
+  font-size: 1.6em;
+  font-weight: bold;
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+
+p, li {
+  color: #222;
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
+  line-height: 1.5em;
+  margin: 1em 0;
+}
+
+ol, ul {
+  padding-left: 40px;
+}
+
+ol > li {
+  list-style-type: upper-roman;
+}
+
+ul > li {
+  list-style-type: disc;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+header {
+  background-color: $dark-color;
+  border-bottom: solid 1px $medium-dark-color;
+  padding: 20px 0;
+
+  h1, h2, a {
+    color: $offset-against-dark-color;
+  }
+}
+
+
+.container {
+  margin: 0 auto;
+  max-width: 920px;
+  padding: 0 20px;
+}
+
+table {
+
+  thead {
+    background-color: $dark-color;
+    color: $offset-against-dark-color;
+  }
+
+  td, th {
+    border: solid 1px #000;
+    line-height: 1.3em;
+    padding: 10px;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  background-color: #EEE;
+  border: solid 1px #DDD;
+  padding: 10px 20px;
+}
