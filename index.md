@@ -6,11 +6,11 @@ layout: default
 id: index
 ---
 
-Yo dawg
+Hi. This is where some of the materials for the training sessions for the [North Dallas Developers Group](http://northdallas.net) lives. The source for this can be found on Github. Anyone is welcome to send pull requests to enhance the material.
 
-## Hands-On React
+## [Hands-On React](hands-on-react)
 
-[Get started](hands-on-react), yo.
+
 
 
 
