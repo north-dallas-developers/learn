@@ -6,10 +6,10 @@
 
 ## Lesson - Creating and Using State
 
-* **constructor**
-* **super()**
-* **setting state in the constructor**
-* **use state in render**
+* constructor
+* super()
+* setting state in the constructor
+* use state in render
 
 ## Activity - Mimic
 
@@ -17,10 +17,10 @@
 
 ## Lesson - Lifecycle Methods
 
-* **Show** `componentDidMount` and `componentWillUnmount`
-* **Set timer** and increment value
-* **setState()**
-* **Discuss virtual dom**
+* Show `componentDidMount` and `componentWillUnmount`
+* Set timer and increment value
+* setState()
+* Discuss virtual dom
 
 ## Activity - Mimic
 
@@ -35,10 +35,10 @@
 
 **Goal**: Introduce functional components so they'll know what they are but, more importantly at this point, recognize them when they look at documentation and blog posts.
 
-* **Hand Off**
-* **Show functional component** - extract header
-* **Pass props** - pass header text
-* **Auto ; insertion error** - display and show how to avoid
+* Hand Off
+* Show functional component - extract header
+* Pass props - pass header text
+* Auto ; insertion error - display and show how to avoid
 
 ## Activity - Mimic
 

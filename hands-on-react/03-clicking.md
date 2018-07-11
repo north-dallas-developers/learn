@@ -25,6 +25,7 @@ Learn about click events.
 **Activity**
 
 * Create a component that counts up when you click on it.
+* Extra: Add a button to the component that resets the counter.
 
 **Video**
 
