@@ -30,7 +30,7 @@ Here we'll create our first component.
 
 This is what we're going to build today.
 
-![AutoCounter](autocounter.gif)
+<img src="autocounter.gif" />
 
 **Video**
 
