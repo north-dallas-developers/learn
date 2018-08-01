@@ -16,3 +16,8 @@ Let's get started.
 1. [Introduction](01-intro)
 1. [State](02-state)
 1. [Clicking](03-clicking)
+1. [Conditional Rendering](04-conditional-rendering)
+1. [Mapping and Lists](05-mapping)
+1. [Controlled Inputs](06-controlled-inputs)
+1. [Ajax](07-ajax)
+1. [React Challenge](08-challenge)
