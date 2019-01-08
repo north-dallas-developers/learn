@@ -5,7 +5,7 @@ title: Hands-On React
 
 ## Hands-On React
 
-These are the resources for the Hands-On React training for the North Dallas Developers Group. These are the lessons in order. They are not all up here yet, but will be before we need them.
+These are the resources for the Hands-On React training for the North Dallas Developers Group. These are the lessons in order.
 
 All of this training assumes that you have [Node](https://nodejs.org/) and [create-react-app](https://github.com/facebook/create-react-app) installed.
 
