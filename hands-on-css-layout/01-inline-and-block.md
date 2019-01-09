@@ -19,3 +19,9 @@ Let's start with a few basics.
 > Inline-block elements by default are as wide as their content, but their dimensions can be set with CSS.
 
 &lt;div style=\"border: solid 1px red; display: inline-block;\"&gt;This is an block element, but changed to inline-block.&lt;/div&gt;
+
+## Exercise: 
+
+[Take this sample and turn it into an horizontal menu.](https://codepen.io/mallioch/pen/JbYGKV?editors=1100#0)
+
+![](01-inline-and-block-activity.png)
