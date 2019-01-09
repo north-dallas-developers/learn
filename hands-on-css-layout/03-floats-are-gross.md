@@ -87,6 +87,10 @@ Floats take the floated elements out of the normal document flow, and this can h
 
 <p>Remove the overlow then the float and see what happens.</p>
 
+> When using floats for columns, there is no great way to keep all the columns the same height.
+
+The height of a float is by default determined by its content size and two different floated elements do not keep their height in sync. Hacks include specifying height or min-height (which limits flexibility), using a background image with two different background colors in a containing div to visually fake columns.
+
 ## Exercise
 
 Remember [the horizontal menu we made with inline-block](https://codepen.io/mallioch/pen/JbYGKV?editors=1100#0)? Use floats instead.
