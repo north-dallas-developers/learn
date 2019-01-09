@@ -29,7 +29,7 @@ Use percentages instead of fixed pixel widths for flexible layouts.
 
 Combine the techniques of centering and percentage-based layouts!
 
-![](05-exercises-2.gif)
+![](05-exercises-3.gif)
 
 [Starter HTML without CSS](https://codepen.io/mallioch/pen/aPjyBv?editors=1100#0)
 
