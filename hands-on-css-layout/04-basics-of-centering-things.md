@@ -20,3 +20,5 @@ title: Hands-On CSS Layout
 ## Group Exercise
 
 Take a look at [Improving's website](https://improving.com/). Look at the "Industry Experience" section. We are going to mimic the layout of that section. [Take this as your starting point](https://codepen.io/mallioch/pen/REJVjz?editors=1100#0). Don't worry about any of the styling except the layout.
+
+[Click here for a completed version of the Improving project](https://codepen.io/mallioch/pen/REJVjz?editors=1100#0)
