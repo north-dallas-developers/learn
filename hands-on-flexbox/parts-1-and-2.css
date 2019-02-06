@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #EEE;
+    margin-top: 0;
+    padding: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.light-blue {
+    background-color: rgba(29, 178, 212, 1.0);
+}

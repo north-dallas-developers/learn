@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" href="parts-1-and-2.css" rel="Stylesheet" />
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <h1>Flexbox</h1>
+
+                <h2>No Flex</h2>
+
+                <div style="background-color: gray;">
+
+                  <div class="box yellow">
+                    1
+                  </div>
+
+                  <div class="box orange">
+                    2
+                  </div>
+
+                  <div class="box red">
+                    3
+                  </div>
+
+                  <div class="box purple">
+                    4
+                  </div>
+
+                  <div class="box blue">
+                    5
+                  </div>
+
+                  <div class="box light-blue">
+                    6
+                  </div>
+
+                </div>
+
+                <h2>Flex</h2>
+
+                <div style="display: flex; background-color: gray;">
+
+                  <div class="box yellow">
+                    1
+                  </div>
+
+                  <div class="box orange">
+                    2
+                  </div>
+
+                  <div class="box red">
+                    3
+                  </div>
+
+                  <div class="box purple">
+                    4
+                  </div>
+
+                  <div class="box blue">
+                    5
+                  </div>
+
+                  <div class="box light-blue">
+                    6
+                  </div>
+
+                </div>
+
+
+                <h2>Flex With More Content</h2>
+
+                <p>When flexing, the flex items will default to content size</p>
+
+                <div style="display: flex; background-color: gray;">
+
+                  <div class="box yellow">
+                    1 - This is more content than before.
+                  </div>
+
+                  <div class="box orange">
+                    2 - This is more content than before.
+                  </div>
+
+                  <div class="box red">
+                    3 - This is more content than before.
+                  </div>
+
+                  <div class="box purple">
+                    4 - This is more content than before.
+                  </div>
+
+                  <div class="box blue">
+                    5 - This is more content than before.
+                  </div>
+
+                  <div class="box light-blue">
+                    6 - This is more content than before.
+                  </div>
+
+                </div>
+
+                <h2>Flex Direction!</h2>
+
+                <p>You can shift things back into a vertical orientation.</p>
+
+                <div style="display: flex; background-color: gray; flex-direction: column;">
+
+                  <div class="box yellow">
+                    1 - This is more content than before.
+                  </div>
+
+                  <div class="box orange">
+                    2 - This is more content than before.
+                  </div>
+
+                  <div class="box red">
+                    3 - This is more content than before.
+                  </div>
+
+                  <div class="box purple">
+                    4 - This is more content than before.
+                  </div>
+
+                  <div class="box blue">
+                    5 - This is more content than before.
+                  </div>
+
+                  <div class="box light-blue">
+                    6 - This is more content than before.
+                  </div>
+
+                </div>
+
+
+                <h2>Sizing with Flexbox</h2>
+
+                <p>You can use the usual methods of sizing things, like height, width, margin, and padding.</p>
+
+                <div style="display: flex; background-color: gray;">
+
+                  <div class="box yellow" style="width: 10%; margin: 2%;">
+                    1 - This is more content than before.
+                  </div>
+
+                  <div class="box orange" style="width: 10%; margin: 2%;">
+                    2 - This is more content than before.
+                  </div>
+
+                  <div class="box red" style="width: 10%; margin: 2%; padding: 20px;">
+                    3 - This is more content than before.
+                  </div>
+
+                  <div class="box purple" style="width: 10%; margin: 2%;">
+                    4 - This is more content than before.
+                  </div>
+
+                  <div class="box blue" style="width: 10%; margin: 2%; height: 60px;">
+                    5 - This is more content than before.
+                  </div>
+
+                  <div class="box light-blue" style="width: 10%; margin: 2%;">
+                    6 - This is more content than before.
+                  </div>
+
+                </div>
+
+                <h1>Exercise 1 - Improving</h1>
+
+                <h2>The Flex Property</h2>
+
+                <p>You can use the flex property for easy proportional sizing.</p>
+
+                <div style="display: flex; background-color: gray;">
+
+                  <div class="box yellow" style="flex: 1;">
+                    1 - This is more content than before.
+                  </div>
+
+                  <div class="box orange" style="flex: 2;">
+                    2 - This is more content than before.
+                  </div>
+
+                  <div class="box red" style="flex: 1;">
+                    3 - This is more content than before.
+                  </div>
+
+                  <div class="box purple" style="flex: 4;">
+                    4 - This is more content than before.
+                  </div>
+
+                  <div class="box blue" style="flex: 1;">
+                    5 - This is more content than before.
+                  </div>
+
+                  <div class="box light-blue" style="flex: 1;">
+                    6 - This is more content than before.
+                  </div>
+
+                </div>
+
+                <h2>Flex Wrap</h2>
+
+                <p>Wrapping works really well, as long as you make the sizes work out and set the flex-wrap property.</p>
+
+                <div style="display: flex; background-color: gray; flex-wrap: wrap;">
+
+                  <div class="box yellow" style="width: 33.333%;">
+                    1 - This is more content than before.
+                  </div>
+
+                  <div class="box orange" style="width: 33.333%;">
+                    2 - This is more content than before.
+                  </div>
+
+                  <div class="box red" style="width: 33.333%;">
+                    3 - This is more content than before.
+                  </div>
+
+                  <div class="box purple" style="width: 33.333%;">
+                    4 - This is more content than before.
+                  </div>
+
+                  <div class="box blue" style="width: 33.333%;">
+                    5 - This is more content than before.
+                  </div>
+
+                  <div class="box light-blue" style="width: 33.333%;">
+                    6 - This is more content than before.
+                  </div>
+
+                </div>
+
+
+
+                <h2>Justify Content</h2>
+
+                <p>If there is extra space between things, you can control what you do with that.</p>
+
+                <div style="display: flex; background-color: gray; flex-wrap: wrap; justify-content: space-evenly;">
+
+                  <div class="box yellow" style="width: 31%;">
+                    1 - This is more content than before.
+                  </div>
+
+                  <div class="box orange" style="width: 31%;">
+                    2 - This is more content than before.
+                  </div>
+
+                  <div class="box red" style="width: 31%;">
+                    3 - This is more content than before.
+                  </div>
+
+                  <div class="box purple" style="width: 31%;">
+                    4 - This is more content than before.
+                  </div>
+
+                  <div class="box blue" style="width: 31%;">
+                    5 - This is more content than before.
+                  </div>
+
+                  <div class="box light-blue" style="width: 31%;">
+                    6 - This is more content than before.
+                  </div>
+
+                </div>
+
+
+                <h2>Align Items</h2>
+
+                <p>If there is extra space between things, you can control what you do with that.</p>
+
+                <div style="display: flex; background-color: gray; flex-wrap: wrap; align-items: center;">
+
+                  <div class="box yellow" style="width: 31%; height: 20px;">
+                    1 - This is more content than before.
+                  </div>
+
+                  <div class="box orange" style="width: 31%; height: 50px;">
+                    2 - This is more content than before.
+                  </div>
+
+                  <div class="box red" style="width: 31%; height: 20px;">
+                    3 - This is more content than before.
+                  </div>
+
+                  <div class="box purple" style="width: 31%; height: 20px;">
+                    4 - This is more content than before.
+                  </div>
+
+                  <div class="box blue" style="width: 31%; height: 30px;">
+                    5 - This is more content than before.
+                  </div>
+
+                  <div class="box light-blue" style="width: 31%; height: 20px;">
+                    6 - This is more content than before.
+                  </div>
+
+                </div>
+
+
+            </div>
+
+
+        </header>
+    </body>
+
+</html>
