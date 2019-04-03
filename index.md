@@ -11,6 +11,7 @@ Hi. This is where some of the materials for the training sessions for the [North
 ## [Hands-On React](hands-on-react)
 ## [Hands-On CSS Layout](hands-on-css-layout)
 ## [Hands-On Flexbox](hands-on-flexbox)
+## [Hands-On Elasticsearch](hands-on-elasticsearch)
 
 
 
