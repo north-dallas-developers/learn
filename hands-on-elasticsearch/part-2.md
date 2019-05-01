@@ -3,13 +3,9 @@ layout: sublevel
 title: Hands-On Elasticsearch - Part 2
 ---
 
-
 ### Important stuff:
 
-You'll need the first to run your queries against Kibana/Elasticsearch running on AWS. If you want to use the code samples to query, you can use the second.
-
-* [Kibana Url](https://search-nddg-elasticsearch-fun-2-kozvvjlgtfomeoypgldbsa2254.us-west-2.es.amazonaws.com/_plugin/kibana/app/kibana#)
-* [Elasticsearch Url](https://search-nddg-elasticsearch-fun-2-kozvvjlgtfomeoypgldbsa2254.us-west-2.es.amazonaws.com/)
+* [Open up a browser tab to this url.](https://search-nddg-elasticsearch-fun-2-kozvvjlgtfomeoypgldbsa2254.us-west-2.es.amazonaws.com/_plugin/kibana/app/kibana#)
 
 Here's our primary practice lessons.
 
