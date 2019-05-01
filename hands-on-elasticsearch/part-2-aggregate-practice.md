@@ -20,3 +20,9 @@ title: Hands-On Elasticsearch - Part 2 - Aggregate Practice
 *Task*: Create a time-based line chart and/or query to show average total of purchases over time.
 
 *Task*: Create a pie chart and/or query to show the most common products (by name) purchased. 
+
+
+
+<video src="https://s3-us-west-2.amazonaws.com/nddg-vids/elasticsearch/aggregate-practice.mp4" style="max-width: 60%;" controls></video>
+
+

@@ -8,8 +8,9 @@
 
 ## Tour of Work Kibana
 
-* Comm Pollers
-* 
+* Comm Poller Execution Times
+* Send Counts
+* Google Api Calls
 
 ## Basic Query Practice (5 min)
 

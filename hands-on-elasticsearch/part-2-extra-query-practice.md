@@ -20,3 +20,6 @@ Here are some practice queries to run against the ecommerce data. I have include
 *Task*: Find all transactions that had a total quantity of 2 and at least one item was in the category of "Men's Shoes".
 
 *Task*: Find all transactions that were either made by men or that included "Men's Clothing".
+
+<video src="https://s3-us-west-2.amazonaws.com/nddg-vids/elasticsearch/extra-query-practice.mp4" style="max-width: 60%;" controls></video>
+
