@@ -7,15 +7,15 @@ title: Hands-On Elasticsearch
 
 These are the resources for the Hands-On Elasticsearch training for the North Dallas Developers Group.
 
-### Important stuff:
+### Running Elasticsearch On Your Machine
 
-* [Kibana Url](https://search-nddg-elasticsearch-fun-tofdyfevowxw3uvg6jyaml5brq.us-west-2.es.amazonaws.com/_plugin/kibana/app/kibana#/home?_g=())
-* [Elasticsearch Url](https://search-nddg-elasticsearch-fun-tofdyfevowxw3uvg6jyaml5brq.us-west-2.es.amazonaws.com/)
+<video src="https://s3-us-west-2.amazonaws.com/nddg-vids/elasticsearch/elastic-getting-started.mp4" style="max-width: 60%;" controls></video>
 
-### Exercises
+### Quick Tour of Kibana
 
-* [First Queries](first-queries)
-* Let's Run Some Code
-* [Bank Account Data](banks)
-* [Services](services)
+<video src="https://s3-us-west-2.amazonaws.com/nddg-vids/elasticsearch/elastic-intro-to-kibana.mp4" style="max-width: 60%;" controls></video>
 
+
+[Part 1](part-1) - For reference, as we're not using that material this time.
+
+### [Part 2](part-2)

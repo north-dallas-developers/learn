@@ -1,6 +1,6 @@
 ---
 layout: sublevel
-title: Hands-On Elasticsearch
+title: Hands-On Elasticsearch - Part 1
 ---
 
 ## Services
