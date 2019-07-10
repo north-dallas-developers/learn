@@ -1,4 +1,9 @@
-# HEAD is now at ba8c0437 Render just a black screen to show the dimensions of the GTK.
+---
+layout: sublevel
+title: Hands-On DragonRuby - Session 1
+---
+
+# Render just a black screen to show the dimensions of the GTK.
 
 ```ruby
 def tick args
@@ -6,16 +11,7 @@ def tick args
 end
 ```
 
-# HEAD is now at bc0e201e Render a tiny square in the center of the screen (tell people to play around with colors and alpha).
-
-```ruby
-def tick args
-  args.outputs.solids << [0, 0, 1280, 720]
-  args.outputs.solids << [640, 360, 3, 3, 255, 255, 255]
-end
-```
-
-# HEAD is now at bc0e201e Render a tiny square in the center of the screen (tell people to play around with colors and alpha).
+# Render a tiny square in the center of the screen (tell people to play around with colors and alpha).
 
 ```ruby
 def tick args
@@ -24,7 +20,16 @@ def tick args
 end
 ```
 
-# HEAD is now at b5f97062 Show the usage of app state, and have them figure out how to get the little pixel to wrap around. Show them how to reset the game too.
+# Render a tiny square in the center of the screen (tell people to play around with colors and alpha).
+
+```ruby
+def tick args
+  args.outputs.solids << [0, 0, 1280, 720]
+  args.outputs.solids << [640, 360, 3, 3, 255, 255, 255]
+end
+```
+
+# Show the usage of app state, and have them figure out how to get the little pixel to wrap around. Show them how to reset the game too.
 
 ```ruby
 def tick args
@@ -37,7 +42,7 @@ def tick args
 end
 ```
 
-# HEAD is now at 5dbf2ef9 The answer to wrapping.
+# The answer to wrapping.
 
 ```ruby
 def tick args
@@ -52,7 +57,7 @@ def tick args
 end
 ```
 
-# HEAD is now at 322fb6b0 Explain the concept of a game loop and pipeline. Ask them to figure out how to render 10 of these stars. But give them a crash course of arrays using the console.
+# Explain the concept of a game loop and pipeline. Ask them to figure out how to render 10 of these stars. But give them a crash course of arrays using the console.
 
 ```ruby
 def defaults args
@@ -79,7 +84,7 @@ def tick args
 end
 ```
 
-# HEAD is now at 7ae98684 Solution, and then talk about destructuring. Tell them to add variable speed and color.
+# Solution, and then talk about destructuring. Tell them to add variable speed and color.
 
 ```ruby
 def defaults args
@@ -114,7 +119,7 @@ def tick args
 end
 ```
 
-# HEAD is now at 7e4de6f8 Show them sprites. Rant about "Continuity of Design TM" and how Ruby embodies this. Tell them to add the solar system. Show them new_entity.
+# Show them sprites. Rant about "Continuity of Design TM" and how Ruby embodies this. Tell them to add the solar system. Show them new_entity.
 
 ```ruby
 def defaults args
@@ -153,7 +158,7 @@ def r
 end
 ```
 
-# HEAD is now at 0846aa95 Planets added. Talk about the power of arrays. Tell them to get the planets rotating (show them some repl stuff, talk a little bit about trig).
+# Planets added. Talk about the power of arrays. Tell them to get the planets rotating (show them some repl stuff, talk a little bit about trig).
 
 ```ruby
 def defaults args
@@ -226,7 +231,7 @@ def r
 end
 ```
 
-# HEAD is now at d4866902 Show them the solution show them the passage of time. Give them a crash course on inputs using the repl, and tell them to add a ship to scene that you can control. Tell them to add thruster particles coming out of the ship too.
+# Show them the solution show them the passage of time. Give them a crash course on inputs using the repl, and tell them to add a ship to scene that you can control. Tell them to add thruster particles coming out of the ship too.
 
 ```ruby
 def defaults args
@@ -309,7 +314,7 @@ def r
 end
 ```
 
-# HEAD is now at e20efadd Solution, and music next.
+# Solution, and music next.
 
 ```ruby
 def defaults args
@@ -413,7 +418,7 @@ def r
 end
 ```
 
-# HEAD is now at 3f0bc4e6 Done.
+# Done.
 
 ```ruby
 def defaults args

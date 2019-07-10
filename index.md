@@ -12,6 +12,7 @@ Hi. This is where some of the materials for the training sessions for the [North
 ## [Hands-On CSS Layout](hands-on-css-layout)
 ## [Hands-On Flexbox](hands-on-flexbox)
 ## [Hands-On Elasticsearch](hands-on-elasticsearch)
+## [Hands-On DragonRuby](dragonruby)
 
 
 
